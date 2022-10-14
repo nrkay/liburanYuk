@@ -1,0 +1,12 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-item a{
+    font-weight: 500;
+}
+
+.landing-page{
+    background-image: url(img/landing-page/1.png);
+    max-width: 100%;
+}
