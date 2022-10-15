@@ -6,10 +6,103 @@ span {
     color: #71CE91;
 }
 
+/* Landing Page */
 .landing-page {
     background-image: url(img/landing-page/1.png); 
     height: 100%; 
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
+}
+
+.content-landing-page p{
+    font-weight: 700; 
+    font-size: 100px; 
+    line-height: 117px; 
+    text-decoration: none;
+}
+
+/* End Landing Page */
+
+/* Promo */
+
+.content-promo p{
+    font-weight: 700; 
+    font-size: 48px; 
+    line-height: 56px; 
+    color:aliceblue
+}
+
+.button1 {
+    width: 179px; 
+    color: #2D8EFD;
+    
+}
+
+.content-promo {
+    margin: 35px;
+}
+
+/* .card-title {
+    margin: 20px;
+} */
+
+/* End Promo */
+
+/* Desc-Web */
+.desc-web {
+    margin-top: 145px;
+}
+
+.desc-web-title p{
+    padding-left: 76px; 
+    padding-right: 51px;
+    padding-top: 72px;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 38px;
+}
+/* End Desc-Web */
+
+/* About Web */
+/* End About Web */
+
+/* Message Web */
+.message-web {
+    margin-top: 148px;
+    padding-top: 78px;
+    padding-left: 235px;
+    padding-right: 235px;
+    padding-bottom: 120px;
+}
+/* End Message Web */
+
+@media screen and (max-width: 600px){
+    div.content-landing-page p{
+        font-weight: 700; 
+        font-size: 30px; 
+        line-height: 20px; 
+        text-decoration: none;
+    }
+
+    div.content-promo p{
+        font-weight: 500; 
+        font-size: 23px; 
+        line-height: 20px; 
+        color:aliceblue
+    }
+
+    div.content-promo {
+        margin: 0;
+    }
+
+    div.card-title {
+        margin: 0;
+    }
+
+    .button1 {
+        width: 100px; 
+        font-size: 12px;
+        color: #2D8EFD;
+    }
 }
