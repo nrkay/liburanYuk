@@ -58,27 +58,22 @@
 
     <!-- Create landing-page -->
       <div class="landing-page p-5">
-        <div class="content-landing-page d-block p-2 text-decoration-none" style="text-align: center; color: white;">
-          <p> <span style="color: #415A4A;">Travel</span> around</p>
+        <div class="container-landing-page d-block p-2 text-decoration-none" style="text-align: center; color: white;">
+          <p><span style="color: #415A4A;">Travel</span> around</p>
           <p>the world</p>
         </div>
-        <a class="d-block p-2">
-          <form class="d-flex" role="search">
-            <button type="button" class="btn btn-default">
-              <span class="glyphicon 
-              glyphicon-search"></span> Search
-          </button>
-          <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success btn-default" type="submit"><span class="glyphicon 
-            glyphicon-search"></span>Search</button> -->
-        </form>
-    </a>
+        <div class="d-flex justify-content-center col-lg-5 col-sm-12 m-auto">
+          <div class="search-landing-page input-group mb-3">
+            <span class="input-group-text" id="basic-addon1"><i class="bi bi-search"></i></span>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+          </div>          
+          </div>
       </div>
     <!-- End Landing-Page -->
 
     <!-- Create Promo -->
     <section>
-      <div class="container">
+      <div class="container-md d-none d-md-block">
         <div class="card promo" style="margin-top: 118px; border: none;">
           <img src="img/cek-promo/12 2.png" class="card-img" alt="...">
           <div class="content-promo d-block align-items-center card-img-overlay justify-content-start">
@@ -92,8 +87,21 @@
   </section>
     <!-- End Promo -->
 
+    <!-- Create Promo in Mobile -->
+    <div class="bg-dange m-4 d-flex justify-content-center d-block d-md-none">
+      <div class="card" style="width: 80%;" style="border: none;">
+        <img src="img/page-rekomendasi/rajaampat.png" class="card-img-top" alt="...">
+        <div class="card-body body-promo-mobile">
+          <h5 class="card-title">Cek Promo Sebelum Berpergian</h5>
+          <a href="#" class="btn btn-primary" style="background-color: #004655; border: none;">Lihat Promo 
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Create Promo in Mobile -->
+
     <!-- Create Rekomendasi -->
-      <div class="container">
+      <div class="container-md">
         <div class="product">
             <div class="mt-5 px-2">
                 <h3>New Product</h3>
@@ -161,43 +169,79 @@
     <!-- End Rekomendasi -->
 
     <!-- Create Helping -->
-      <div class="container">
+      <div class="container-md">
         <div class="categories">
             <div class="mt-5 p-2">
-                <h3>Trend Categories</h3>
+                <h3>Butuh Bantuan? Cek Informasi Berikut!</h3>
             </div>
-            <div class="row text-center m-2 align-items-center justify-content-between">
-                <div class="col-lg-2 col-md-4 col-sm-6 p-3 m-1" style="background-color: #A0CCE4; width: 200px; height: 179px; border-radius: 15px;">
-                  <div class="desc mt-2">
-                    <p>Gadgets</p>
-                  </div>  
-                  <img src="img/informasi/Airplane Take Off.png" alt="">
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 p-3 m-1" style="background-color: #A0CCE4; width: 200px; height: 179px; border-radius: 15px;">
+            <div class="container text-center ">
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-2 col-md-3 col-sm-4 m-2" style="background: #A0CCE4; border-radius: 15px;">
                   <div class="desc mt-2">
                     <p>Gadgets</p>
                   </div>  
                   <img src="img/informasi/Company.png" alt="">
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 p-3 m-1" style="background-color: #A0CCE4; width: 200px; height: 179px; border-radius: 15px;">
+                <div class="col-lg-2 col-md-3 col-sm-4 m-2" style="background: #A0CCE4; border-radius: 15px;">
+                  <div class="desc mt-2">
+                    <p>info</p>
+                  </div>  
+                  <img src="img/informasi/Company.png" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 m-2" style="background: #A0CCE4; border-radius: 15px;">
+                  <div class="desc mt-2">
+                    <p>Gadgets</p>
+                  </div>  
+                  <img src="img/informasi/Company.png" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 m-2" style="background: #A0CCE4; border-radius: 15px;">
+                  <div class="desc mt-2">
+                    <p>Gadgets</p>
+                  </div>  
+                  <img src="img/informasi/Company.png" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 m-2" style="background: #A0CCE4; border-radius: 15px;">
+                  <div class="desc mt-2">
+                    <p>Gadgets</p>
+                  </div>  
+                  <img src="img/informasi/Company.png" alt="">
+                </div>
+              </div>
+            </div>
+            <!-- <div class="d-flex flex-row text-center m-2">
+              <div class="row">
+                <div class="col-lg-2 item-halping" style="border: solid; background-color: #A0CCE4; border-radius: 15px;">
+                  <div class="desc mt-2">
+                    <p>Gadgets</p>
+                  </div>  
+                  <img src="img/informasi/Airplane Take Off.png" alt="">
+                </div>
+                <div class="col-lg-2 item-halping" style="background-color: #A0CCE4; border-radius: 15px;">
+                  <div class="desc mt-2">
+                    <p>Gadgets</p>
+                  </div>  
+                  <img src="img/informasi/Company.png" alt="">
+                </div>
+                <div class="col-lg-2 item-halping" style="background-color: #A0CCE4; border-radius: 15px;">
                   <div class="desc mt-2">
                     <p>Gadgets</p>
                   </div>  
                   <img src="img/informasi/Inquiry.png" alt="">
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 p-3 m-1" style="background-color: #A0CCE4; width: 200px; height: 179px; border-radius: 15px;">
+                <div class="col-lg-2 item-halping" style="background-color: #A0CCE4; border-radius: 15px;">
                   <div class="desc mt-2">
                     <p>Gadgets</p>
                   </div>  
                   <img src="img/informasi/Inquiry.png" alt="">
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 p-3 m-1" style="background-color: #A0CCE4; width: 200px; height: 179px; border-radius: 15px;">
+                <div class="col-lg-2 item-halping" style="background-color: #A0CCE4; border-radius: 15px;">
                   <div class="desc mt-2">
                     <p>Gadgets</p>
                   </div>
                   <img src="img/informasi/Journey.png" alt="">
                 </div>
-        </div>
+              </div>
+        </div> -->
       </div>
     </div>
     <!-- End Help -->
@@ -207,29 +251,29 @@
       <div class="container desc-web">
         <div class="container text-center">
           <div class="row">
-            <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="desc-web-img d-flex justify-content-center col-lg-4 col-md-12 col-sm-12 align-items-center ">
               <img src="img/desc-web/pict-desc-web.png" class="img-fluid" alt="esc-web">
             </div>
-            <div class="col-lg-8 col-md-12 col-sm-12" style="box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 30px;">
+            <div class="kolom-desc-web col-lg-8 col-md-12 col-sm-12" style="box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 30px;">
               <div class="desc-web-title">
                 <p>Pesan Tiket dan Rencanain Liburan Jadi Gampang</p>
               </div>
-              <div class="desc-web-content" style="padding-left: 76px; padding-right: 51px; padding-bottom: 26px; padding-top: 38px;">
-                <div class="" style="text-align: left;">
-                  <h1 style="font-size: 20px;">Mudahnya Pesan Tiket dan Hotel</h1>
-                  <p style="font-size: 20px; line-height: 23px; font-weight: 200;"> Pesan tiket sekaligus hotel dengan mudah dan cepat. Tidak perlu risau, hanya dengan satu sentuhan jari, tiket dan hotel yang kamu butuhkan bisa didapatkan dengan mudah. </p>
+              <div class="desc-web">
+                <div class="desc-web-content" style="text-align: left;">
+                  <h1>Mudahnya Pesan Tiket dan Hotel</h1>
+                  <p>Pesan tiket sekaligus hotel dengan mudah dan cepat. Tidak perlu risau, hanya dengan satu sentuhan jari, tiket dan hotel yang kamu butuhkan bisa didapatkan dengan mudah. </p>
                 </div>
-                <div class="" style="text-align: left;">
-                  <h1 style="font-size: 20px;">Mudahnya Pesan Tiket dan Hotel</h1>
-                  <p style="font-size: 20px; line-height: 23px; font-weight: 200;"> Pesan tiket sekaligus hotel dengan mudah dan cepat. Tidak perlu risau, hanya dengan satu sentuhan jari, tiket dan hotel yang kamu butuhkan bisa didapatkan dengan mudah. </p>
+                <div class="desc-web-content" style="text-align: left;">
+                  <h1>Mudahnya Pesan Tiket dan Hotel</h1>
+                  <p> Pesan tiket sekaligus hotel dengan mudah dan cepat. Tidak perlu risau, hanya dengan satu sentuhan jari, tiket dan hotel yang kamu butuhkan bisa didapatkan dengan mudah. </p>
                 </div>
-                <div class="" style="text-align: left;">
-                  <h1 style="font-size: 20px;">Mudahnya Pesan Tiket dan Hotel</h1>
-                  <p style="font-size: 20px; line-height: 23px; font-weight: 200;"> Pesan tiket sekaligus hotel dengan mudah dan cepat. Tidak perlu risau, hanya dengan satu sentuhan jari, tiket dan hotel yang kamu butuhkan bisa didapatkan dengan mudah. </p>
+                <div class="desc-web-content" style="text-align: left;">
+                  <h1>Mudahnya Pesan Tiket dan Hotel</h1>
+                  <p> Pesan tiket sekaligus hotel dengan mudah dan cepat. Tidak perlu risau, hanya dengan satu sentuhan jari, tiket dan hotel yang kamu butuhkan bisa didapatkan dengan mudah. </p>
                 </div>
-                <div class="" style="text-align: left;">
-                  <h1 style="font-size: 20px;">Mudahnya Pesan Tiket dan Hotel</h1>
-                  <p style="font-size: 20px; line-height: 23px; font-weight: 200;"> Pesan tiket sekaligus hotel dengan mudah dan cepat. Tidak perlu risau, hanya dengan satu sentuhan jari, tiket dan hotel yang kamu butuhkan bisa didapatkan dengan mudah. </p>
+                <div class="desc-web-content" style="text-align: left;">
+                  <h1>Mudahnya Pesan Tiket dan Hotel</h1>
+                  <p> Pesan tiket sekaligus hotel dengan mudah dan cepat. Tidak perlu risau, hanya dengan satu sentuhan jari, tiket dan hotel yang kamu butuhkan bisa didapatkan dengan mudah. </p>
                 </div>
             </div>
             </div>
@@ -250,12 +294,12 @@
               <div class="desc-web-title">
                 <p>Pesan Tiket dan Rencanain Liburan Jadi Gampang</p>
               </div>
-              <div class="about-web-content" style="padding-left: 76px; padding-right: 51px; padding-bottom: 26px; padding-top: 38px;">
-                <p style="font-size: 18px; line-height: 21px; font-weight: 200; text-align: justify;">Ingin pesan tiket pesawat murah? Kini hanya dengan satu kali sentuhan jari, Anda bisa langsung pesan tiket pesawat murah di tiket.com. tiket.com adalah pionir online travel agent (OTA) di Indonesia yang selalu memberikan inovasi handal untuk mempermudah Anda ketika pesan tiket pesawat online. Cari tiket pesawat online di tiket.com ke ribuan destinasi penerbangan domestik maupun internasional di seluruh dunia. Anda bisa cek harga tiket pesawat online di tiket.com, sekaligus membandingkan jadwal pesawat secara langsung via online. Beli tiket online di tiket.com juga memberikan keuntungan lebih. Setiap kali melakukan transaksi, Anda bisa mendapatkan tiket Points yang setelah terkumpul bisa ditukar dengan hadiah atau diskon istimewa dari tiket.com</p>
+              <div class="about-web-content">
+                <p>Ingin pesan tiket pesawat murah? Kini hanya dengan satu kali sentuhan jari, Anda bisa langsung pesan tiket pesawat murah di tiket.com. tiket.com adalah pionir online travel agent (OTA) di Indonesia yang selalu memberikan inovasi handal untuk mempermudah Anda ketika pesan tiket pesawat online. Cari tiket pesawat online di tiket.com ke ribuan destinasi penerbangan domestik maupun internasional di seluruh dunia. Anda bisa cek harga tiket pesawat online di tiket.com, sekaligus membandingkan jadwal pesawat secara langsung via online. Beli tiket online di tiket.com juga memberikan keuntungan lebih. Setiap kali melakukan transaksi, Anda bisa mendapatkan tiket Points yang setelah terkumpul bisa ditukar dengan hadiah atau diskon istimewa dari tiket.com</p>
             </div>
             </div>
             <!-- Add Picture -->
-            <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-center d-none d-lg-block">
               <img src="img/desc-web/pict-desc-web.png" class="img-fluid" alt="esc-web">
             </div>
           </div>
@@ -265,11 +309,112 @@
     <!-- End About Web -->
 
     <!-- Create Message -->
-    <!-- <section>
-      <div class="message-web" style="background: #004655; Height: 438px">
-        <p style="font-weight: 400; font-size: 40px; line-height: 60px; text-align: center; color: white;">Dapatkan berita terbaru kami Daftarkan segera alamat email Anda untuk menerima inspirasi perjalanan tak terlupakan dari LiburanYuk</p>
+    <section>
+      <div class="message w-100 p-3 mt-5" style="background-color: #004655;" >
+        <p style="text-align: center; color: white; ">Dapatkan berita terbaru kami
+          Daftarkan segera alamat email Anda untuk menerima inspirasi perjalanan tak terlupakan dari LiburanYuk</p>
       </div>
-    </section> -->
+    </section>
     <!-- End message -->
+
+    <!-- Feed back  -->
+    <section>
+      <div class="feed-back">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-4 col-md-4">
+              <div class="card" style="border: none;">
+                <div class="card-body">
+                    <img src="img/feedback/1.png" style="border-radius: 50%; width: 12em; height: 12em;" class="card-img-top" alt="">
+                    <div class="card-keterangan p-2">
+                      <div class="feed-back-rating d-flex justify-content-start">
+                        <img src="img/feedback/Vector.png" class="img-fluid m-1" alt="...">
+                        <img src="img/feedback/Vector.png" class="img-fluid m-1" alt="">
+                        <img src="img/feedback/Vector.png" class="img-fluid m-1" alt="g">
+                        <img src="img/feedback/Vector.png" class="img-fluid m-1" alt="g">
+                      </div>
+                      <div class="card-caption p-2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                          magna aliqua. </p>
+                        <p><b>John 34, Padang</b></p>
+                      </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="card" style="border: none;">
+                <div class="card-body">
+                    <img src="img/feedback/1.png" style="border-radius: 50%; width: 12em; height: 12em;" class="card-img-top" alt="">
+                    <div class="card-keterangan p-2">
+                      <div class="feed-back-rating d-flex justify-content-start">
+                        <img src="img/feedback/Vector.png" class="img-fluid m-1" alt="...">
+                        <img src="img/feedback/Vector.png" class="img-fluid m-1" alt="">
+                        <img src="img/feedback/Vector.png" class="img-fluid m-1" alt="g">
+                        <img src="img/feedback/Vector.png" class="img-fluid m-1" alt="g">
+                      </div>
+                      <div class="card-caption p-2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                          magna aliqua. </p>
+                        <p><b>John 34, Padang</b></p>
+                      </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="card" style="border: none;">
+                <div class="card-body">
+                    <img src="img/feedback/1.png" style="border-radius: 50%; width: 12em; height: 12em;" class="card-img-top" alt="">
+                    <div class="card-keterangan p-2">
+                      <div class="feed-back-rating d-flex justify-content-start">
+                        <img src="img/feedback/Vector.png" class="img-fluid m-1" alt="...">
+                        <img src="img/feedback/Vector.png" class="img-fluid m-1" alt="">
+                        <img src="img/feedback/Vector.png" class="img-fluid m-1" alt="g">
+                        <img src="img/feedback/Vector.png" class="img-fluid m-1" alt="g">
+                      </div>
+                      <div class="card-caption p-2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                          magna aliqua. </p>
+                        <p><b>John 34, Padang</b></p>
+                      </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- And Feed Back -->
+
+    <!-- Footer -->
+    <Footer>
+      <div class="footer-top">
+        <div class="container-md text-center">
+          <div class="row">
+            <div class="footer-top-contant col-lg-6 col-md-6 col-sm-6">
+              <p>Jl. Prof. Dr. Hamka, Air Tawar Bar., Kec. Padang Utara, Kota Padang, Sumatera Barat 25171 </p>
+              <p>mycarrental009@gmail.com</p>
+              <p>082172381708</p>
+            </div>
+            <div class="footer-top-contant col-lg-6 col-md-6 col-sm-6">
+              <p>Contact With Us</p>
+              <div class="d-flex justify-content-start">
+                <img class="contact-us-img" src="img/contact-us/Group 8.png" alt="" srcset=""  style="width: 32.07px; height: 32px;">
+                <img class="contact-us-img" src="img/contact-us/Group 10.png" alt="" srcset="" style="width: 32.07px; height: 32px;" >
+                <img class="contact-us-img" src="img/contact-us/Group 9.png" alt="" srcset="" style="width: 32.07px; height: 32px;"> 
+                <img class="contact-us-img" src="img/contact-us/Group 7.png" alt="" srcset=""  style="width: 32.07px; height: 32px;">
+                <img class="contact-us-img" src="img/contact-us/Group 6.png" alt="" srcset=""  style="width: 32.07px; height: 32px;">
+            </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+      <div class="Footer-bottom text-center p-3">
+        <p>Copyright@2022</p>
+      </div>
+    </Footer>
+    <!-- End Footer -->
   </body>
 </html>

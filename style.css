@@ -15,7 +15,7 @@ span {
     background-size: cover;
 }
 
-.content-landing-page p{
+.container-landing-page p{
     font-weight: 700; 
     font-size: 100px; 
     line-height: 117px; 
@@ -49,9 +49,34 @@ span {
 
 /* End Promo */
 
+/* Promo in Mobile */
+.body-promo-mobile h5 {
+    font-size: 18px;
+}
+
+/* End Promo in Mobile */
+
+/* Create Halping */
+.item-halping {
+    margin: 3px;
+    padding: 3px;
+}
+/* End Helping */
+
 /* Desc-Web */
-.desc-web {
-    margin-top: 145px;
+/* .desc-web-content {
+    padding-left: 76px; 
+    padding-right: 51px; 
+    padding-bottom: 26px; 
+    padding-top: 38px;
+} */
+
+.kolom-desc-web {
+    padding: 50px;
+}
+
+.desc-web-img {
+    max-width: 100%;
 }
 
 .desc-web-title p{
@@ -59,15 +84,38 @@ span {
     padding-right: 51px;
     padding-top: 72px;
     font-weight: 800;
-    font-size: 32px;
+    font-size: 25px;
     line-height: 38px;
+}
+
+.desc-web-content h1{
+    font-size: 17px;
+}
+
+.desc-web-content p{
+    font-size: 14x; 
+    line-height: 23px; 
+    font-weight: 200;
 }
 /* End Desc-Web */
 
 /* About Web */
+
+.about-web-content{
+    padding-left: 50px; 
+    padding-right: 50px; 
+    padding-bottom: 26px; 
+    padding-top: 30px;
+}
+.about-web-content p{
+    font-size: 14px; 
+    line-height: 21px; 
+    font-weight: 200; 
+    text-align: justify;
+}
 /* End About Web */
 
-/* Message Web */
+/* Message Web 
 .message-web {
     margin-top: 148px;
     padding-top: 78px;
@@ -75,9 +123,175 @@ span {
     padding-right: 235px;
     padding-bottom: 120px;
 }
-/* End Message Web */
 
-@media screen and (max-width: 600px){
+.message-web p{
+    font-weight: 400; 
+    font-size: 25px; 
+    line-height: 60px; 
+    text-align: center; color: white;
+    Height: 438px
+}
+End Message Web */
+
+/* message  */
+.message  p{
+    padding: 60px;
+    font-size: 25px; 
+    line-height: 60px; 
+    font-weight: 400; 
+}
+/* End message  */
+/* Fedd Back */
+.feed-back {
+    margin-top: 100px;
+}
+
+.card-keterangan {
+    text-align: left;
+}    
+
+.feed-back-rating {
+    width: 28px; 
+    height: 28px;
+}
+
+.card-caption p{
+    font-weight: 300; 
+    font-size: 14px; 
+    line-height: 16px;
+}
+
+/* End Feed Back */
+
+/* Footer */
+
+.footer-top {
+    background: #004655;
+    opacity:0.7;
+}
+.Footer-bottom {
+    background-color: #004655;
+    height: 60px;
+}
+
+.footer-top-contant {
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+.footer-top-contant p{
+    color: white;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+
+}
+
+.Footer-bottom p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+}
+/* End Footer */
+
+/* cover */
+.cover-title p{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+/* End Cover */
+
+.infromation-title li{
+    text-align: left;
+    font-weight: 200;
+}
+
+.infromation-title p{
+    text-align: justify;
+    font-weight: 200;
+}
+
+
+
+
+/* Log-In HTML */
+
+.header p{
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.kotak-form {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+.login-form input {
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 19px;
+    color: black;
+    margin-top: 41px;
+    }
+
+.login-form .log-in-apple {
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 25px;
+}
+
+.line {
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+.login-form .submit-login {
+    background-color: yellow; 
+    border: none; 
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+
+.login-form .log-in-google {
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    margin-top: 19px;
+}
+
+.login-form .log-in-facebook {
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    margin-top: 19px;
+}
+/* End Log-Ing HTML */
+
+/* Sign Up */
+.sign-up-form label {
+    margin-top: 41px;
+
+}
+
+.header h1{
+    
+}
+/* End Sign Up */
+
+@media screen and (min-width: 768px){
     div.content-landing-page p{
         font-weight: 700; 
         font-size: 30px; 
@@ -105,4 +319,193 @@ span {
         font-size: 12px;
         color: #2D8EFD;
     }
+
+    /* Create Desc Web */
+    .desc-web-img {
+        max-width: 100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    .desc-web-title p{
+        padding-left: 76px; 
+        padding-right: 51px;
+        padding-top: 60px;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: 2px;
+    }
+
+    .desc-web-content h1{
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    
+    .desc-web-content p{
+        font-size: 13px; 
+        line-height: 23px; 
+        font-weight: 200;
+    }
+    
+    /* End Desc Web */
+
+    /* About Web */
+    .about-web-content p{
+        font-size: 13px; 
+        line-height: 21px; 
+        font-weight: 200; 
+        text-align: justify;
+        letter-spacing: 2px;
+    }
+    /* End About Web */
+
+    /* Message Web */
+    .message-web p{
+        font-weight: 400; 
+        font-size: 25px; 
+        line-height: 30px; 
+        text-align: center; color: white;
+    }
+    .message-web {
+        margin-top: 148px;
+        padding-top: 78px;
+        padding-left: 20px;
+        padding-right: 20px;
+        Height: 250px
+        /* padding-bottom: 20px; */
+    }
+
+    /* End Message Web */
+
+    .footer-top-contant p{
+        color: white;
+        text-align: left;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+    
+    }
+    
+    .Footer-bottom p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 19px;
+        color: white;
+    }
 }
+
+@media screen and (max-width: 575px) {
+    /* Landing Page */
+    .container-landing-page p{
+        font-weight: 700; 
+        font-size: 2rem; 
+        line-height: 2rem; 
+        text-decoration: none;
+    }
+
+    input::placeholder{
+        font-size: 13px;
+        font-weight: 13px;
+    }
+
+    /* End Landing Page */
+
+    /* Promo */
+    .body-promo-mobile h5 {
+        font-size: 15px;
+    }
+    /* End Promo */
+
+    /* Desc web */
+    .desc-web-content {
+        padding-left: 10px; 
+        padding-right: 10px; 
+        padding-bottom: 10px; 
+        padding-top: 10px;
+    }
+    .kolom-desc-web {
+        padding: 0;
+        margin: 0;
+    }
+
+    .desc-web-title p{
+        color: #004655;
+        text-align: center;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 30px;
+    }
+
+    .desc-web-content h1{
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    
+    .desc-web-content p{
+        font-size: 10px; 
+        line-height: 23px; 
+        font-weight: 200;
+    }
+    /* End Desc Web */
+
+    /* About Web */
+    .about-web-content {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+    }
+
+    .about-web-content p{
+        font-size: 10px; 
+        line-height: 23px; 
+        font-weight: 200;
+    }
+    /* End About Web */
+
+    /* mesaage */
+    .message  p{
+        padding: 0;
+        font-size: 15px; 
+        line-height: 30px; 
+       
+    }
+    /* End massage */
+}
+
+@media screen and (max-width: 500px) and (min-width: 300px) {
+    .footer-top-contant {
+
+    }
+    .footer-top-contant p{
+    color: white;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 19px;
+    letter-spacing: 0em;
+    }
+  }
+
+  @media screen and (max-width: 700px) and (min-width: 600px) {
+    .footer-top-contant {
+
+    }
+    .footer-top-contant p{
+    color: white;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    }
+  }
