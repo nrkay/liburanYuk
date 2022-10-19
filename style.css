@@ -214,8 +214,38 @@ End Message Web */
 
 .infromation-title p{
     text-align: justify;
-    font-weight: 200;
+    font-weight: 500;
+    font-size: 32px;
 }
+
+.content-deskripsi p{
+    text-align: justify;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.nformastion-desc-right h1 {
+    font-size: 30px; 
+    text-align: left;
+}
+
+.nformastion-desc-right-content p{
+    font-size: 20px; 
+    line-height: 23px; 
+    font-weight: 200; 
+    color:blue; 
+    text-align: left;
+}
+
+.nformastion-desc-btn {
+    background: #004655; 
+    width: 200px; 
+    border: none;
+}
+
+
+
+
 
 
 
@@ -280,16 +310,44 @@ End Message Web */
 }
 /* End Log-Ing HTML */
 
-/* Sign Up */
-.sign-up-form label {
-    margin-top: 41px;
+/* Page Rekomendation */
 
+
+
+/* End Cover */
+
+/* departure information */
+.desc-tour-button {
+    width: 250px;
+    margin-bottom: 30px;
 }
 
-.header h1{
+.content-deskripsi h1{
+    text-align: left; 
+    font-size: 24px; 
+    color: blue; 
+    font-weight: 200;
+}
+/* End departure information */
+
+
+/* End Page Rekomendation */
+
+/* Page Login */
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+    }
     
-}
-/* End Sign Up */
+    @media (min-width: 1025px) {
+    .h-custom-2 {
+    height: 100%;
+    }
+    }
+/* End Page Login */
 
 @media screen and (min-width: 768px){
     div.content-landing-page p{
@@ -478,12 +536,104 @@ End Message Web */
        
     }
     /* End massage */
+
+    /* Cover */
+
+    .cover-title p{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .cover-title-button {
+        font-size: 10px;
+        font-weight: 200;
+    }
+
+    .button-cover {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* End Cover */
+
+    /* departure information */
+    .infromation-title p{
+        text-align: center;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .desc-tour-button {
+        width: 150px;
+        margin-bottom: 30px;
+        font-size: 13px;
+    }
+
+    .content-deskripsi h1{
+        text-align: left; 
+        font-size: 20px; 
+        color: blue; 
+        font-weight: 500;
+    }
+
+    .infromation-title li{
+        text-align: left;
+        font-weight: 200;
+        font-size: 13px;
+    }
+
+    .content-deskripsi p{
+        text-align: justify;
+        font-weight: 200;
+        font-size: 13px;
+    }
+
+    .nformastion-desc-right h1 {
+        font-size: 17px; 
+        text-align: left;
+    }
+
+    .nformastion-desc-right-content p{
+        font-size: 15px; 
+        line-height: 20px; 
+        font-weight: 200; 
+        color:blue; 
+        text-align: left;
+    }
+
+    .nformastion-desc-btn {
+        background: #004655; 
+        border: none;
+        font-size: 10px;
+        font-weight: 200;
+    }
+
+    /* End departure information */
+
+    .login-form .log-in-apple {
+        font-size: 13px;
+    }
+    .login-form .log-in-google {
+        font-size: 13px;
+    }
+    .login-form .log-in-facebook {
+        font-size: 13px;
+    }
+
+    .title-log-in h1 {
+        font-size: 20px;
+    }
+
+    .title-log-in h2 {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 500px) and (min-width: 300px) {
-    .footer-top-contant {
-
-    }
+  
     .footer-top-contant p{
     color: white;
     text-align: left;
@@ -495,7 +645,7 @@ End Message Web */
     }
   }
 
-  @media screen and (max-width: 700px) and (min-width: 600px) {
+  @media screen and (max-width: 800px) and (min-width: 600px) {
     .footer-top-contant {
 
     }
@@ -508,4 +658,30 @@ End Message Web */
     line-height: 19px;
     letter-spacing: 0em;
     }
+
+    .login-form .log-in-apple {
+        font-size: 13px;
+    }
+    .login-form .log-in-google {
+        font-size: 13px;
+    }
+    .login-form .log-in-facebook {
+        font-size: 13px;
+    }
+
+    .title-log-in h1 {
+        font-size: 20px;
+    }
+
+    .title-log-in h2 {
+        font-size: 18px;
+    }
+
+    .container-landing-page p {
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 117px;
+        text-decoration: none;
+      }
+
   }
